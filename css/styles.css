@@ -362,7 +362,7 @@ justify-content: center;
 }
 
 .slogan_background {
-display: block;
+display: flex;
 }
 
 .slogan {
@@ -415,6 +415,10 @@ padding-bottom: 94px;
 /* SEKCJA OUR TEAM */
 
 .our_team {
+background-color: #F5F4FA;
+}
+
+.our_team .container {
 background-color: #F5F4FA;
 }
 
