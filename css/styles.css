@@ -521,7 +521,7 @@ padding-right: 24px;;
 
 
 .text { display: block; }
-@media screen and (max-width: 10px) {
+@media screen and (max-width: 500px) {
 /* Okno przeglądarki o szerokości pomiędzy 0px a 400px */
 .mobile-text{ display: block; }
 .non-mobile{ display: none; }
