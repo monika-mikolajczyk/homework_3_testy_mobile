@@ -519,9 +519,8 @@ padding-right: 24px;;
 
 /* mobile */
 
-.text {display: block;}
+
 @media screen and (min-width: 400px){
   /* Okno przeglądarki o szerokości pomiędzy 400px a nieskończoność */
-  .mobile-text{ display: none; }
-  .non-mobile{ display: block; }
+  .text {display: block;}
   }
