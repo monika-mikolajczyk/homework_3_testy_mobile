@@ -358,7 +358,11 @@ display: flex;
 
 .slogan_background .container {
 height: 600px;
-align-items: center;
+justify-content: center;
+}
+
+.slogan_background {
+display: block;
 }
 
 .slogan {
