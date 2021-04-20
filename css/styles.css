@@ -520,6 +520,9 @@ padding-right: 24px;;
 /* mobile */
 
 
-@media screen and (min-width: 400px){
-  /* Okno przeglądarki o szerokości pomiędzy 400px a nieskończoność */
-  }
+.text { display: block; }
+@media screen and (max-width: 10px) {
+/* Okno przeglądarki o szerokości pomiędzy 0px a 400px */
+.mobile-text{ display: block; }
+.non-mobile{ display: none; }
+}
