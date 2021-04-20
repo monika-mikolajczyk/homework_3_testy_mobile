@@ -516,3 +516,11 @@ padding-bottom: 20px;
 padding-left: 24px;
 padding-right: 24px;;
 }
+
+/* mobile */
+
+@media screen and (min-width: 400px){
+  /* Okno przeglądarki o szerokości pomiędzy 400px a nieskończoność */
+  .mobile-text{ display: none; }
+  .non-mobile{ display: block; }
+  }
