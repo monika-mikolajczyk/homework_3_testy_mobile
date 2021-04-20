@@ -1,0 +1,511 @@
+
+
+:root {
+  --main-font: font-family "Roboto", sans-serif;
+}
+
+/* --- header --- */
+
+.header-logo {
+text-decoration: none;
+font-family: "Raleway";
+font-style: normal;
+font-weight: bold;
+font-size: 26px;
+line-height: 31px;
+letter-spacing: 0.03em;    
+color: #2196F3; 
+}
+.nazwa-klasy-2 {
+color: black;
+}
+
+.slogan_background {
+background-color:#2F303A;
+display: flex;
+}
+
+.slogan {
+font-family: "Roboto";
+font-style: normal;
+font-weight: 900;
+font-size: 44px;
+line-height: 60px;
+/* or 136% */  
+text-align: center;
+letter-spacing: 0.06em;
+text-transform: uppercase;
+color: #FFFFFF;
+}
+
+.navigation-list-link {
+text-decoration: none;    
+font-family: "Roboto";
+font-style: normal;
+font-weight: 500;
+font-size: 14px;
+line-height: 16px;
+letter-spacing: 0.02em;
+color: #212121;
+cursor: pointer;
+}
+.navigation-list-link:hover {
+color: #2196F3;    
+}
+.navigation-list-link:focus {
+color: #2196F3;
+}
+
+.adress_email_telefon {
+text-decoration: none;
+font-family: "Roboto";
+font-style: normal;
+font-weight: 500;
+font-size: 14px;
+line-height: 16px;
+letter-spacing: 0.02em;
+color: #757575;
+}  
+.adress_email_telefon:hover{
+color: #2196F3;
+}
+.adress_email_telefon:focus{
+color: #2196F3;
+}
+.adress_email_telefon:active{
+text-decoration: underline;    
+}
+
+.modal-btn {
+font-family: "Roboto";
+font-style: normal;
+font-weight: bold;
+font-size: 16px;
+line-height: 30px;
+/* identical to box height, or 187% */  
+display: flex;
+align-items: center;
+text-align: center;
+letter-spacing: 0.06em;
+text-transform: uppercase;
+background-color: #2196F3;   
+color: #ffffff;
+cursor: pointer;
+}
+
+.why_us_list_name {
+font-family: "Roboto";
+font-style: normal;
+font-weight: bold;
+font-size: 14px;
+line-height: 16px;
+letter-spacing: 0.03em;
+text-transform: uppercase;
+color: #212121;
+}
+
+.why_us_list_text {
+font-family: "Roboto";
+font-style: normal;
+font-weight: normal;
+font-size: 14px;
+line-height: 24px;
+/* or 171% */
+letter-spacing: 0.03em;
+color: #757575;
+}
+
+.secondary_header {
+font-family: "Roboto";
+font-style: normal;
+font-weight: bold;
+font-size: 36px;
+line-height: 42px;
+text-align: center;
+letter-spacing: 0.03em;
+color: #212121;
+}
+
+.our_team_cards_name {
+font-family: "Roboto";
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 19px;
+/* identical to box height */
+text-align: center;
+letter-spacing: 0.03em;
+color: #212121;
+}
+
+.our_team_cards_skill {
+font-family: "Roboto";
+font-style: normal;
+font-weight: normal;
+font-size: 16px;
+line-height: 19px;
+/* identical to box height */
+text-align: center;
+letter-spacing: 0.03em;
+color: #757575;
+}
+
+.footer_things {
+background-color: #2F303A;
+}
+
+.place {
+text-decoration: none;
+font-family: "Roboto";
+font-style: normal;
+font-weight: normal;
+font-size: 14px;
+line-height: 24px;
+/* or 171% */
+letter-spacing: 0.03em;
+color: #FFFFFF;
+} 
+.place:active {
+text-decoration: underline;   
+}
+
+.mail {
+text-decoration: none;
+font-family: "Roboto";
+font-style: normal;
+font-weight: normal;
+font-size: 14px;
+line-height: 24px;
+/* or 171% */
+letter-spacing: 0.03em;
+color: rgba(255, 255, 255, 0.6);   
+}
+.mail:active {
+text-decoration: underline;    
+}
+
+.telefon {
+text-decoration: none;
+font-family: "Roboto";
+font-style: normal;
+font-weight: 500;
+font-size: 14px;
+line-height: 16px;
+letter-spacing: 0.02em;
+color: #757575;
+}
+.telefon:active {
+text-decoration: underline;     
+}
+
+/* --- PORTFOLIO --- */
+
+.option_list_name_link {
+text-decoration: none;
+font-family: "Roboto";
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 26px;
+/* identical to box height, or 162% */
+text-align: center;
+letter-spacing: 0.03em;
+color: #212121;
+cursor: pointer;
+}
+.option_list_name_link:hover {
+background-color: #2196F3;
+} 
+.option_list_name_link:focus {
+color: #2196F3;
+}
+
+.options_images_project {
+font-family: "Roboto";
+font-style: normal;
+font-weight: bold;
+font-size: 18px;
+line-height: 36px;
+/* identical to box height, or 200% */
+letter-spacing: 0.06em;
+color: #212121;   
+}
+
+.options_images_name {
+font-family: "Roboto";
+font-style: normal;
+font-weight: normal;
+font-size: 16px;
+line-height: 30px;
+/* identical to box height, or 187% */
+letter-spacing: 0.03em;
+color: #757575;
+}
+
+.nazwa-klasy-4 {
+color:#FFFFFF;
+}
+
+
+
+/* ----- homework-3_style-geometrii ----- */
+
+/* resetowanie stylów selektora tagu dla elementów <h1>...<h6>, <p> i <ul> */
+
+h1,
+h2,
+h3
+{
+margin: 0;
+padding: 0;
+}
+
+ul,
+li{
+margin: 0; 
+padding: 0;   
+}
+/* dałam oprócz "list-style: none;" to co powyżej,
+ bo Alex powiedział na zajęciach praktycznych,
+ że lepiej dawać właśnie po przecinku, w razie
+ gdybyśmy chcieli jednak jakąś listę numerować
+ czy wypunktować */
+
+ul,
+li {
+list-style: none;    
+}
+
+p{
+padding: 0; 
+margin: 0;   
+}
+
+img {
+display: block;
+}
+
+.list {
+list-style: none;
+}
+  
+.link {
+text-decoration: none;
+}
+
+/* KLASY POMOCNICZE: CONTAINER I SECTION */
+
+.container {
+width: 1200px;
+padding: 0 15px; 
+align-items: center;
+margin: 0 auto;
+}
+
+.section {
+padding-top: 94px; 
+}
+
+/* HEADER */
+
+.header .container {
+display: flex;
+align-items: center;
+padding-top: 24px;
+padding-bottom: 24px;
+border-bottom: 1px solid #ececec;
+}
+
+/* tylko mail i telefon jest obok logo, a przyciski 
+ "Agencja/Portfolio/Kontakt" są co prawda też obok,
+ ale w kolumnie 3-wierszowej */
+
+.navigation-logo {
+display: flex;
+align-items: center;
+}
+
+.header-logo {
+text-decoration: none;
+margin-right: 93px;
+}
+
+.navigation-list {
+display: flex;
+align-items: center;
+}
+/* teraz przyciski "Agencja/Portfolio/Kontakt" 
+ są w jednym wierszu */
+
+.navigation-list-item:not(:last-child) {
+padding-right: 45px;
+}
+
+.header .contact {
+margin-left: auto;
+}
+.contact {
+list-style-type: none;
+}
+.adress_email_telefon:not(:last-child) {
+margin-right: 50px;
+}
+.contact {
+display: flex;
+}
+
+/* SLOGAN + BUTTON */
+
+.slogan_background .container {
+width: 1200px;
+height: 600px;
+align-items: center;
+}
+
+.slogan {
+width: 696px;
+padding-top: 200px;
+margin: auto;
+}
+
+.modal-btn {
+margin: auto;
+width: 200px;
+height: 50px;
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+border-radius: 4px;
+text-transform: none;
+justify-content: center;
+}
+
+.modal-btn-class {
+padding-top: 30px;
+}
+
+/* SEKCJA WHY US */
+
+.why_us_list /*ul class*/ {
+display:  flex;
+}
+/*jak dałam flex-wrap: wrap; to się usunęły kolumny*/
+
+.why_us_list_item:not(:last-child) {
+margin-right: 30px;
+}
+
+.why_us_list_name {
+padding-bottom: 10px;  
+}
+
+ /* SEKCJA SERVICES */
+
+.secondary_header_list {
+display:  flex;
+justify-content: space-between;
+}
+
+.secondary_header_images {
+padding-top: 50px;
+padding-bottom: 94px;
+}
+
+/* SEKCJA OUR TEAM */
+
+.our_team {
+background-color: #F5F4FA;
+}
+
+.our_team_cards_list {
+display: flex;
+justify-content: space-between;
+}
+
+.our_team_cards {
+padding-top: 50px;
+padding-bottom: 94px;
+}
+
+.our_team_cards_list_item {
+background: #FFFFFF;
+/* material shadow v1 */
+box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
+border-radius: 0px 0px 4px 4px;
+}
+
+.our_team_cards_name {
+padding-top: 30px;
+padding-bottom: 10px;
+}
+
+.our_team_cards_skill {
+padding-bottom: 30px;
+}
+
+/* FOOTER */
+
+.footer_things {
+display: flex;
+padding-top: 60px;
+padding-bottom: 60px;
+}
+
+.adress_footer {
+padding-top: 20px;
+}
+
+/* --- PORTFOLIO --- */
+
+/* SEKCJA OPTIONS */
+
+.options_list {
+display: flex;
+justify-content: center;
+}
+
+.options_list_name:not(:last-child) {
+padding-right: 8px;
+}
+
+.option_list_name_link {
+background: #F5F4FA;
+border-radius: 4px;
+}
+
+.option_list_name_link:hover {
+box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
+border-radius: 4px;
+} 
+.option_list_name_link:focus {
+box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
+border-radius: 4px;
+}
+
+/* SEKCJA OPTIONS_IMAGES */
+
+.options_images_list {
+padding-top: 50px;
+padding-bottom: 94px;
+display: flex;
+flex-wrap: wrap;
+justify-content: space-between;
+margin-top: -30px;
+}
+
+.options_images_list_item 
+{
+margin-top: 30px;
+border-bottom: 1px solid #EEEEEE;
+}
+
+.options_images_project {
+padding-top: 20px;
+padding-bottom: 4px;
+padding-left: 24px;
+padding-right: 24px;
+}
+
+.options_images_name {
+padding-bottom: 20px;
+padding-left: 24px;
+padding-right: 24px;;
+}
