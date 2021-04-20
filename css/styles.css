@@ -522,5 +522,4 @@ padding-right: 24px;;
 
 @media screen and (min-width: 400px){
   /* Okno przeglądarki o szerokości pomiędzy 400px a nieskończoność */
-  .text {display: block;}
   }
