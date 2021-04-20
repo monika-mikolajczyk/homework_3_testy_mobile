@@ -154,6 +154,10 @@ color: #757575;
 background-color: #2F303A;
 }
 
+.footer_things .container {
+background-color: #2F303A;
+}
+
 .place {
 text-decoration: none;
 font-family: "Roboto";
